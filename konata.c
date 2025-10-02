@@ -1,5 +1,6 @@
 #include <cairo/cairo.h>
 #include <math.h>
+#include <stdio.h>
 
 #define WIDTH 800
 #define HEIGHT 600
@@ -52,6 +53,8 @@ int main() {
     draw_mouth(cr);
 
     cairo_surface_write_to_png(surface, "konata.png");
+
+    printf("wrote file 'konata.png'\n");
 
     cairo_destroy(cr);
     cairo_surface_destroy(surface);
