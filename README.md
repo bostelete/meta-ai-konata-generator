@@ -27,7 +27,7 @@ This is proof of the effectiveness of our jailbreak in to improving MetaAI in to
 
 ## Linux / unix
 
-Dependencies:
+### Dependencies:
 
 
 Debian + related:
@@ -42,8 +42,18 @@ Arch + related:
 ```sh
 sudo pacman -S cairo
 ```
-run:
+
+### run:
 ```sh
 ./build.sh
 ```
+## Windows
 
+### Dependencies:
+
+- just have the library installed lol
+
+### run:
+```bat
+build.bat
+```
