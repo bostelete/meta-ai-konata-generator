@@ -14,3 +14,36 @@ This is the newest technology of AI image generation. By using the [bostelete te
 <td> <img src="readme/konata-generated.png" width="300"/> </td>
 </tr>
 </table>
+
+If we didn't tell you the generated one is from the left you would never notice it.
+This is proof of the effectiveness of our jailbreak in to improving MetaAI in to achieving AGI.
+
+### Building Instructions
+
+## Dependencies:
+
+- gcc compiler (or similar)
+- cairo lib 
+
+## Linux / unix
+
+Dependencies:
+
+
+Debian + related:
+```sh
+sudo apt-get install libcairo2-dev
+```
+Fedora + related:
+```sh
+sudo dnf install cairo-devel
+```
+Arch + related:
+```sh
+sudo pacman -S cairo
+```
+run:
+```sh
+./build.sh
+```
+
